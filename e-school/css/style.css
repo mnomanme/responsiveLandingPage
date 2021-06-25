@@ -1,0 +1,245 @@
+/*font-family: "Merriweather", serif;
+      font-family: "Merriweather Sans", sans-serif;
+      */
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #dfd3c3;
+}
+
+
+/******************* navbar section ***************************/
+
+.all-color {
+    background-color: #f0fff0;
+    padding-bottom: 10px;
+}
+
+.img-size {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.container {
+    margin-bottom: 50px;
+}
+
+.get-my-button {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    margin: auto;
+    padding: 8px 18px 8px 18px;
+    font-weight: 500;
+    background: #21b573;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.get-my-button:hover {
+    background: #11c675;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.nav-link {
+    margin: 5px;
+}
+
+
+/******************* navbar section end ***************************/
+
+
+/***************************** second part********************************************/
+
+.middle-container {
+    margin-top: 50px;
+}
+
+.icon img {
+    width: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.box-shadow {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px crimson;
+    cursor: pointer;
+}
+
+.box-shadow:hover {
+    background: #f0fff0;
+    text-decoration: none;
+    color: black;
+}
+
+
+/******************************************* second part end*******************************************************/
+
+.online-Course {
+    text-align: center;
+}
+
+.card-title {
+    color: #07031a;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background: #f0fff0;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-icon img {
+    width: 20px;
+}
+
+
+/******************************************************** third part**********************************/
+
+.my-photo img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.last-container {
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+
+.develop {
+    text-align: justify;
+    padding-top: 50px;
+}
+
+.my-testimonial {
+    text-align: center;
+    margin: 50px;
+}
+
+
+/**************************************************** footer *****************************************************/
+
+footer {
+    padding-left: 20px;
+    background-color: #383e56;
+    color: #e0dede;
+}
+
+.list-unstyled a {
+    color: #e0dede;
+    text-decoration: none;
+}
+
+.py-3 a {
+    color: #e0dede;
+}
+
+h5 {
+    line-height: 2;
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 500;
+    color: #d92027;
+}
+
+h4,
+p {
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+.my-test {
+    color: #092532;
+}
+
+.any {
+    color: darkgreen;
+}
+
+.size-decoration {
+    color: darkslateblue;
+}
+
+h1,
+h2 {
+    line-height: 2;
+    font-family: "Merriweather", serif;
+}
+
+.online {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #092532;
+    font-weight: 800;
+}
+
+.text-upper-lowercase {
+    font-family: "Merriweather Sans", sans-serif;
+    color: #fee2b3;
+}
+
+.develop {
+    line-height: 2;
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+    color: #204051;
+}
+
+
+/********************************* footer end **************************************/
+
+p {
+    line-height: 2;
+    font-family: "Merriweather", serif;
+}
+
+.school-images img {
+    background-color: #f7c5a8;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    width: 250px;
+    height: 196px;
+    box-shadow: 2px 2px 5px #e7305b;
+    cursor: pointer;
+}
+
+.school-images :hover {
+    background: #6a197d;
+    text-decoration: none;
+    color: black;
+}
+
+.school {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+hr {
+    margin: 100px auto;
+    border-top: 5px dotted #52616b;
+    width: 50px;
+}
+
+.gallery {
+    margin-bottom: 50px;
+}
