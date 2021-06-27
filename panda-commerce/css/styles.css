@@ -90,15 +90,11 @@ hr {
 }
 
 footer {
-  /* background-color: tan; */
+  background-color: tan;
   text-align: center;
   padding: 10px;
 }
 
 footer small {
   font-weight: 800;
-}
-
-footer .p {
-  color: crimson;
 }
