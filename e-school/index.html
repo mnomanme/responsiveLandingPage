@@ -1,383 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/ICON/Logo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Merriweather:wght@700&family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="icon" href="images/ICON/Logo.png" />
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Merriweather:wght@700&family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Title -->
     <title>E-School</title>
-</head>
+  </head>
 
-<body>
-    <!------------------------------------------------ Navbar----------------------------------------------------------->
-    <div class="all-color">
+  <body>
+    <header>
+      <!-- navbar section -->
+      <section class="all-color">
+        <div class="container all">
+          <nav class="navbar navbar-expand-lg navbar-light h-50">
+            <a class="navbar-brand" href="#">
+              <div class="img-size">
+                <img src="images/ICON/Logo1.png" class="img-fluid" alt="" />
+              </div>
+            </a>
 
-        <div class="container ">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <nav class="navbar navbar-expand-lg navbar-light h-50">
-
-                <a class="navbar-brand" href="#">
-                    <div class="img-size">
-                        <img src="images/ICON/Logo1.png" class="img-fluid" alt="" />
-                    </div>
-                </a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Courses</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Others</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <a class="get-my-button" href="">Sign in</a>
-                    </ul>
-
-                </div>
-
-            </nav>
-
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    >Books <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Others</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <a class="get-my-button" href="">Sign in</a>
+              </ul>
+            </div>
+          </nav>
         </div>
-        <!----------------------------------------------- carousel part ---------------------------------------------------->
+      </section>
+    </header>
+
+    <main>
+      <!-- carousel section -->
+      <section class="all-color py-5">
         <div class="container">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row align-items-center">
+                  <div class="col-md-5">
+                    <h5>Are you ready to learn?</h5>
+                    <h1>
+                      Learn With fun on <span class="any"> any schedule </span>
+                    </h1>
+                    <p>
+                      There are many reasons we go to school. The main reason we
+                      attend school is to gain the skills and education needed
+                      to live autonomously and successfully
+                    </p>
+                    <a class="get-my-button" href="">Get Started</a>
+                  </div>
 
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-
-                    <div class="carousel-item active">
-
-                        <div class="row align-items-center">
-
-                            <div class="col-md-5">
-
-                                <h5>Are you ready to learn?</h5>
-                                <h1>Learn With fun on <span class="any"> any schedule </span></h1>
-                                <p>
-                                    There are many reasons we go to school. The main reason we attend school is to gain the skills and education needed to live autonomously and successfully
-                                </p>
-                                <a class="get-my-button" href="">Get Started</a>
-                            </div>
-
-                            <div class="col-md-7">
-                                <img src="images/Photos/Illustration.png" class="d-block w-100" alt="...">
-                            </div>
-
-                        </div>
-
-                    </div>
-
+                  <div class="col-md-7">
+                    <img
+                      src="images/Photos/Illustration.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
                 </div>
-
+              </div>
             </div>
-
+          </div>
         </div>
+      </section>
 
-    </div>
-
-    <!-------------------------------------------------------- carousel------------------------------------------------->
-
-    <div class="container middle-container">
-
-        <div class="row icon">
-
+      <!-- box section -->
+      <section>
+        <div class="container middle-container">
+          <div class="row icon">
             <div class="col-md-3 box-shadow">
-                <img src="images/ICON/book.png" alt="">
-                <h4>1500+ Topics</h4>
-                <p>Learn Anythings</p>
+              <img src="images/ICON/book.png" alt="" />
+              <h4>1500+ Topics</h4>
+              <p>Learn Anythings</p>
             </div>
 
             <div class="col-md-3 box-shadow">
-                <img src="images/ICON/Student.png" alt="">
-                <h4>1800+ Stdents</h4>
-                <p>Learn Anythings</p>
+              <img src="images/ICON/Student.png" alt="" />
+              <h4>1800+ Stdents</h4>
+              <p>Learn Anythings</p>
             </div>
 
             <div class="col-md-3 box-shadow">
-                <img src="images/ICON/Test.png" alt="">
-                <h4>9K+ Tokens</h4>
-                <p>Learn Anythings</p>
+              <img src="images/ICON/Test.png" alt="" />
+              <h4>9K+ Tokens</h4>
+              <p>Learn Anythings</p>
             </div>
 
             <div class="col-md-3 box-shadow">
-                <img src="images/ICON/Students.png" alt="">
-                <h4>2000+ Student</h4>
-                <p>Learn Anythings</p>
+              <img src="images/ICON/Students.png" alt="" />
+              <h4>2000+ Student</h4>
+              <p>Learn Anythings</p>
             </div>
-
+          </div>
         </div>
+      </section>
 
-    </div>
-
-
-    <!--------------------------------------------card decks--------------------------------------------------------->
-
-    <div class="container">
-        <div class="online-Course">
+      <!-- online course -->
+      <section>
+        <div class="container">
+          <div class="online-Course">
             <h1 class="online"><strong>Online Course</strong></h1>
-        </div>
-        <div class="card-deck container">
+          </div>
+          <div class="card-deck container">
             <div class="card">
-                <img src="images/Photos/Morder pyschology.png" class="card-img-top" alt="Mordern pyschology">
-                <div class="card-body">
-                    <h5 class="card-title">Mordern pyschology</h5>
-                    <p class="card-text">Designation</p>
-                    <a class="get-my-button" href="">Buy Courses</a>
+              <img
+                src="images/Photos/Morder pyschology.png"
+                class="card-img-top"
+                alt="Mordern pyschology"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mordern pyschology</h5>
+                <p class="card-text">Designation</p>
+                <a class="get-my-button" href="">Buy Courses</a>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div class="footer-icon">
+                  <img src="images/ICON/calendar.png" alt="" />
+                  <small>Start 20 April 2021</small>
                 </div>
-                <div class="d-flex justify-content-between">
-                    <div class="footer-icon">
-                        <img src="images/ICON/calendar.png" alt="">
-                        <small>Start 20 April 2021</small>
-                    </div>
-                    <div class="footer-icon">
-                        <img src="images/ICON/people.png" alt="">
-                        <small>60 Seats</small>
-                    </div>
+                <div class="footer-icon">
+                  <img src="images/ICON/people.png" alt="" />
+                  <small>60 Seats</small>
                 </div>
-            </div>
-
-            <div class="card">
-
-                <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
-
-                <div class="card-body">
-                    <h5 class="card-title">Mordern pyschology</h5>
-                    <p class="card-text">Designation</p>
-                    <!--<button class="get-my-button">Buy Course</button>-->
-                    <a class="get-my-button" href="">Buy Courses </a>
-                </div>
-
-                <div class="d-flex justify-content-between">
-
-                    <div class="footer-icon">
-                        <img src="images/ICON/calendar.png" alt="">
-                        <small>Start 20 April 2021</small>
-                    </div>
-
-                    <div class="footer-icon">
-                        <img src="images/ICON/people.png" alt="">
-                        <small>60 Seats</small>
-                    </div>
-
-                </div>
+              </div>
             </div>
 
             <div class="card">
+              <img
+                src="images/Photos/Morder psyc.png"
+                class="card-img-top"
+                alt="..."
+              />
 
-                <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mordern pyschology</h5>
+                <p class="card-text">Designation</p>
+                <!--<button class="get-my-button">Buy Course</button>-->
+                <a class="get-my-button" href="">Buy Courses </a>
+              </div>
 
-                <div class="card-body">
-                    <h5 class="card-title">Mordern pyschology</h5>
-                    <p class="card-text">Designation</p>
-                    <a class="get-my-button" href="">Buy Courses</a>
+              <div class="d-flex justify-content-between">
+                <div class="footer-icon">
+                  <img src="images/ICON/calendar.png" alt="" />
+                  <small>Start 20 April 2021</small>
                 </div>
 
-                <div class="d-flex justify-content-between">
+                <div class="footer-icon">
+                  <img src="images/ICON/people.png" alt="" />
+                  <small>60 Seats</small>
+                </div>
+              </div>
+            </div>
 
-                    <div class="footer-icon">
-                        <img src="images/ICON/calendar.png" alt="">
-                        <small>Start 20 April 2021</small>
-                    </div>
+            <div class="card">
+              <img
+                src="images/Photos/Morder pychons.png"
+                class="card-img-top"
+                alt="..."
+              />
 
-                    <div class="footer-icon">
-                        <img src="images/ICON/people.png" alt="">
-                        <small>60 Seats</small>
-                    </div>
+              <div class="card-body">
+                <h5 class="card-title">Mordern pyschology</h5>
+                <p class="card-text">Designation</p>
+                <a class="get-my-button" href="">Buy Courses</a>
+              </div>
 
+              <div class="d-flex justify-content-between">
+                <div class="footer-icon">
+                  <img src="images/ICON/calendar.png" alt="" />
+                  <small>Start 20 April 2021</small>
                 </div>
 
+                <div class="footer-icon">
+                  <img src="images/ICON/people.png" alt="" />
+                  <small>60 Seats</small>
+                </div>
+              </div>
             </div>
-
+          </div>
         </div>
+      </section>
 
-    </div>
-    <hr>
-    <div class="container school">
+      <hr />
+      <!-- school gallery -->
+      <section>
+        <div class="container school">
+          <h1 class="text-center gallery">School Gallery</h1>
 
-        <h1 class="text-center gallery">School Gallery</h1>
-
-        <div class="row text-center ">
-
+          <div class="row text-center">
             <div class="col-lg-3 col-md-4 col-6 school-images">
-                <img class="img-fluid img-thumbnail" src="images/one.svg" alt="">
+              <img
+                class="img-fluid img-thumbnail"
+                src="images/one.svg"
+                alt=""
+              />
             </div>
             <div class="col-lg-3 col-md-4 col-6 school-images">
-                <img class="img-fluid img-thumbnail" src="images/two.svg" alt="">
+              <img
+                class="img-fluid img-thumbnail"
+                src="images/two.svg"
+                alt=""
+              />
             </div>
             <div class="col-lg-3 col-md-4 col-6 school-images">
-                <img class="img-fluid img-thumbnail" src="images/web-design.svg" alt="">
+              <img
+                class="img-fluid img-thumbnail"
+                src="images/web-design.svg"
+                alt=""
+              />
             </div>
             <div class="col-lg-3 col-md-4 col-6 school-images">
-                <img class="img-fluid img-thumbnail" src="images/four.svg" alt="">
+              <img
+                class="img-fluid img-thumbnail"
+                src="images/four.svg"
+                alt=""
+              />
             </div>
             <div class="col-lg-3 col-md-4 col-6 school-images">
-                <img class="img-fluid img-thumbnail" src="images/five.svg" alt="">
+              <img
+                class="img-fluid img-thumbnail"
+                src="images/five.svg"
+                alt=""
+              />
             </div>
             <div class="col-lg-3 col-md-4 col-6 school-images">
-                <img class="img-fluid img-thumbnail" src="images/six.svg" alt="">
+              <img
+                class="img-fluid img-thumbnail"
+                src="images/six.svg"
+                alt=""
+              />
             </div>
             <div class="col-lg-3 col-md-4 col-6 school-images">
-                <img class="img-fluid img-thumbnail" src="images/skills.jpg" alt="">
+              <img
+                class="img-fluid img-thumbnail"
+                src="images/skills.jpg"
+                alt=""
+              />
             </div>
             <div class="col-lg-3 col-md-4 col-6 school-images">
-                <img class="img-fluid img-thumbnail" src="images/land.svg" alt="">
+              <img
+                class="img-fluid img-thumbnail"
+                src="images/land.svg"
+                alt=""
+              />
             </div>
+          </div>
         </div>
+      </section>
 
-    </div>
-
-    <hr>
-    <!--------------------------------------------------------- last container---------------------------------------------------------------------->
-
-    <div class="container last-container">
-        <div class="my-testimonial">
+      <hr />
+      <!-- testimonial -->
+      <section>
+        <div class="container last-container">
+          <div class="my-testimonial">
             <h1 class="my-test"><strong>Testimonial</strong></h1>
-        </div>
-        <div class="row">
+          </div>
+          <div class="row">
             <div class="col-md-4 my-photo">
-                <img src="images/Photos/best-photo.JPG" alt="">
+              <img src="images/Photos/best-photo.JPG" alt="" />
             </div>
             <div class="col-md-8">
-                <p class="develop">
-                    I'm a developer, so I know how to create your website to run across devices using the latest technologies available.
-                </p>
+              <p class="develop">
+                I'm a developer, so I know how to create your website to run
+                across devices using the latest technologies available.
+              </p>
             </div>
+          </div>
         </div>
-    </div>
-    <br>
+      </section>
+    </main>
 
-    <!--------------------------------------------------------- last container---------------------------------------------------------------------->
+    <br />
 
-    <!------------------------------------------------------------------- Footer--------------------------------- ===========-->
-    <footer class="page-footer font-small blue pt-4 ">
-
-        <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left ">
-
-            <!-- Grid row -->
-            <div class="row ">
-
-                <!-- Grid column -->
-                <div class="col-md-3 mt-md-0 mt-3 ">
-                    <!-- Content -->
-                    <h5 class="text-uppercase "></h5>
-                    <p>Here you can use rows and columns to organize your footer content.</p>
-                </div>
-                <!-- Grid column -->
-
-
-
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3 ">
-
-                    <!-- Links -->
-                    <h5 class="text-upper-lowercase ">Course</h5>
-
-                    <ul class="list-unstyled ">
-                        <li>
-                            <a href="#! ">Graphic Design</a>
-                        </li>
-                        <li>
-                            <a href="#! ">Web Design</a>
-                        </li>
-                        <li>
-                            <a href="#! ">Business</a>
-                        </li>
-                        <li>
-                            <a href="#! ">Marketing</a>
-                        </li>
-                        <li>
-                            <a href="#! ">Engineering</a>
-                        </li>
-                    </ul>
-
-                </div>
-
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3 ">
-
-                    <!-- Links -->
-                    <h5 class="text-upper-lowercase ">Terms</h5>
-
-                    <ul class="list-unstyled ">
-                        <li>
-                            <a href="#! ">Graphic Design</a>
-                        </li>
-                        <li>
-                            <a href="#! ">Web Design</a>
-                        </li>
-                        <li>
-                            <a href="#! ">Business</a>
-                        </li>
-                        <li>
-                            <a href="#! ">Marketing</a>
-                        </li>
-                        <li>
-                            <a href="#! ">Engineering</a>
-                        </li>
-                    </ul>
-
-
-                </div>
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3 ">
-                    <!-- Links -->
-                    <h5 class="text-upper-lowercase ">Useful Link</h5>
-
-                    <ul class="list-unstyled ">
-                        <li>
-                            <a href="#! ">Graphic Design</a>
-                        </li>
-                        <li>
-                            <a href="#! ">Web Design</a>
-                        </li>
-                        <li>
-                            <a href="#! ">Business</a>
-                        </li>
-                        <li>
-                            <a href="#! ">Marketing</a>
-                        </li>
-                        <li>
-                            <a href="#! ">Engineering</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Grid row -->
-
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+      <section>
+        <div class="container-fluid text-md-left">
+          <!-- Grid row -->
+          <div class="row">
+            <!-- Grid Column -->
+            <div class="col-md-3 mt-md-0 mt-3">
+              <h5 class="text-uppercase"></h5>
+              <p>
+                Here you can use rows and columns to organize your footer
+                content.
+              </p>
             </div>
-            <!-- Footer Links -->
 
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3 "> <small>© 2020 Copyright: <a href="https://Programmingher.com/ "> Programminghero.com</a></small>
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5 class="text-upper-lowercase">Course</h5>
 
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#! ">Graphic Design</a>
+                </li>
+                <li>
+                  <a href="#! ">Web Design</a>
+                </li>
+                <li>
+                  <a href="#! ">Business</a>
+                </li>
+                <li>
+                  <a href="#! ">Marketing</a>
+                </li>
+                <li>
+                  <a href="#! ">Engineering</a>
+                </li>
+              </ul>
             </div>
-            <!-- Copyright -->
 
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5 class="text-upper-lowercase">Terms</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#! ">Graphic Design</a>
+                </li>
+                <li>
+                  <a href="#! ">Web Design</a>
+                </li>
+                <li>
+                  <a href="#! ">Business</a>
+                </li>
+                <li>
+                  <a href="#! ">Marketing</a>
+                </li>
+                <li>
+                  <a href="#! ">Engineering</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5 class="text-upper-lowercase">Useful Link</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#! ">Graphic Design</a>
+                </li>
+                <li>
+                  <a href="#! ">Web Design</a>
+                </li>
+                <li>
+                  <a href="#! ">Business</a>
+                </li>
+                <li>
+                  <a href="#! ">Marketing</a>
+                </li>
+                <li>
+                  <a href="#! ">Engineering</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="footer-copyright text-center py-3">
+          <small
+            >© 2021 Copyright:
+            <a href="https://Github.com/nomanme "> Mohamamd Noman</a></small
+          >
+        </div>
+      </section>
     </footer>
-    <!------------------------------------------------------------------- Footer--------------------------------- ===========-->
-
 
     <!--Java Script file-->
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
-
-
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js "
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj "
+      crossorigin="anonymous "
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js "
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo "
+      crossorigin="anonymous "
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js "
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI "
+      crossorigin="anonymous "
+    ></script>
+  </body>
 </html>
