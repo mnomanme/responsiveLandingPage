@@ -1,0 +1,73 @@
+body {
+  background-color: lightgray;
+  font-family: "Bebas Neue", cursive;
+}
+
+h1 {
+  font-family: Bebas Neue;
+  font-size: 80px;
+}
+h5 {
+  color: #363958;
+  font-weight: bold;
+  font-size: 24px;
+}
+p {
+  font-family: cursive;
+  font-size: 16px;
+  text-transform: lowercase;
+  color: grey;
+}
+
+button {
+  font-size: 60px;
+  width: 170px;
+  height: 60px;
+}
+
+.btn-text {
+  padding: 5px;
+  font-size: 20px;
+}
+/* nav */
+.top-section {
+  border: 2px solid firebrick;
+  background-color: gainsboro;
+}
+
+.item-nav > ul > li {
+  font-size: large;
+  padding: 15px;
+}
+
+/* middle  */
+.middle-section {
+  border: 2px solid fuchsia;
+}
+
+.middle-section img {
+  width: 434px;
+  height: 434px;
+}
+
+/* cart */
+.icon-cart {
+  border: 2px solid green;
+}
+
+.item-cart {
+  border: 2px solid rebeccapurple;
+  margin: auto;
+}
+.item-cart img {
+  height: 80px;
+  width: 120px;
+}
+
+.cart-item img {
+  width: 100%;
+}
+
+.cart-section {
+  border: 2px solid darkblue;
+}
