@@ -31,7 +31,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap"
       rel="stylesheet"
     />
 
@@ -52,7 +52,7 @@
   <body>
     <header class="container top-section">
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
@@ -94,102 +94,252 @@
       </nav>
     </header>
 
-    <main>
+    <main class="container">
       <!-- backpack section -->
-      <section
-        class="
-          container
-          mt-5
-          d-flex
-          align-items-center
-          justify-content-center
-          middle-section
-        "
-      >
-        <div class="col-sm-12 col-md-6">
-          <h1>
-            <span>BACKPACK</span><br />
-            MOON
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
-            iure?
-          </p>
-          <button class="btn btn-primary btn-text">
-            <i class="fas fa-shopping-cart"></i> Buy Now
-          </button>
-        </div>
-        <div class="col-sm-12 col-md-6">
-          <img src="./images/bag-photos/bag.png" alt="" />
+      <section>
+        <div class="row d-flex align-items-center middle-section">
+          <div class="col-sm-12 col-md-6 ps-5 pt-5">
+            <h1>BACKPACK</h1>
+            <h1>MOON</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+              iure?
+            </p>
+            <a class="btn btn-primary p-3" href=""
+              ><i class="fas fa-shopping-cart"></i> BUY NOW</a
+            >
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <img class="img-fluid" src="./images/bag-photos/bag.png" alt="" />
+          </div>
         </div>
       </section>
 
       <!-- cart section -->
+      <section class="shopping-cart">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6 ps-4 pt-5 shopping-cart1">
+            <div
+              class="d-flex shadow py-3 px-3 mb-5 item-cart align-items-center"
+            >
+              <div>
+                <img src="./images/logo/image 12.png" alt="" />
+              </div>
+              <div>
+                <h2 class="fw-bold">Find the Perfect Fit</h2>
+                <p>
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-flex shadow py-3 px-3 mb-5 item-cart align-items-center"
+            >
+              <div>
+                <img src="./images/logo/image 12.png" alt="" />
+              </div>
+              <div>
+                <h2 class="fw-bold">Free Exchanges</h2>
+                <p>One of the many reasons you can shop with peace of mind.</p>
+              </div>
+            </div>
+            <div
+              class="d-flex shadow py-3 px-3 mb-5 item-cart align-items-center"
+            >
+              <div>
+                <img src="./images/logo/image 12.png" alt="" />
+              </div>
+              <div>
+                <h2 class="fw-bold">Contact Our Seller</h2>
+                <p>
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 shopping-cart2">
+            <img class="cart-item" src="./images/logo/cart.png" alt="" />
+          </div>
+        </div>
+      </section>
 
-      <section class="d-flex container cart-section py-5 mt-5">
-        <div class="col-md-5 icon-cart">
-          <div class="card mb-3 rounded" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4 item-cart">
-                <img
-                  src="./images/logo/image 12.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Find the Perfect Fit</h5>
-                  <p class="card-text">
-                    Everybody is different, which is why we offer styles for
-                    every body.
-                  </p>
+      <!-- casual bag section -->
+      <section id="casuali-bag" class="container mt-5">
+        <h1>Casual backpack</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div
+              class="card bag-card p-3 bag-container me-5-card shadow-lg h-100"
+            >
+              <img
+                src="./images/bag-photos/wing.png"
+                class="card-img-top casual-bag"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title bag-font fw-bold">
+                  Nike Sportswear Hayward
+                </h5>
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex align-items-center">
+                  <h2 style="font-weight: 800" class="tomato-highlight">
+                    $120
+                  </h2>
+                  <a style="margin-left: 80px" href="#" class="btn btn-primary"
+                    ><i class="fas fa-shopping-cart"></i> BUY NOW</a
+                  >
                 </div>
               </div>
             </div>
           </div>
-          <div class="card mb-3" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4 item-cart">
-                <img
-                  src="./images/logo/image 13.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Free Exchanges</h5>
-                  <p class="card-text">
-                    One of the many reasons you can with peace of mind.
-                  </p>
+          <div class="col">
+            <div
+              class="card bag-card p-3 bag-container me-5-card shadow-lg h-100"
+            >
+              <img
+                src="./images/bag-photos/wing2.png"
+                class="card-img-top casual-bag"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title bag-font fw-bold">School backpack</h5>
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex align-items-center">
+                  <h2 style="font-weight: 800" class="tomato-highlight">
+                    $320
+                  </h2>
+                  <a style="margin-left: 80px" href="#" class="btn btn-primary">
+                    <i class="fas fa-shopping-cart"></i> BUY NOW</a
+                  >
                 </div>
               </div>
             </div>
           </div>
-          <div class="card mb-3" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4 item-cart">
-                <img
-                  src="./images/logo/image 14.png"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Contact Our Seller</h5>
-                  <p class="card-text">
-                    They are here to help you. That's quite literally what we
-                    pay them for.
-                  </p>
+          <div class="col">
+            <div
+              class="card bag-card p-3 bag-container me-5-card shadow-lg h-100"
+            >
+              <img
+                src="./images/bag-photos/wing3.png"
+                class="card-img-top casual-bag"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title bag-font fw-bold">
+                  CityLite Security Backpack
+                </h5>
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex align-items-center">
+                  <h2 style="font-weight: 800" class="tomato-highlight">
+                    $350
+                  </h2>
+                  <a style="margin-left: 80px" href="#" class="btn btn-primary">
+                    <i class="fas fa-shopping-cart"></i> BUY NOW</a
+                  >
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-7 cart-item">
-          <img src="./images/logo/cart.png" alt="" />
+      </section>
+
+      <!-- travel bag section -->
+      <section id="casuali-bag" class="container mt-5">
+        <h1>Casual backpack</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div
+              class="card bag-card p-3 bag-container me-5-card shadow-lg h-100"
+            >
+              <img
+                src="./images/bag-photos/travel.png"
+                class="card-img-top casual-bag"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title bag-font fw-bold">Travel Sport</h5>
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex align-items-center">
+                  <h2 style="font-weight: 800" class="tomato-highlight">
+                    $120
+                  </h2>
+                  <a style="margin-left: 80px" href="#" class="btn btn-primary"
+                    ><i class="fas fa-shopping-cart"></i> BUY NOW</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card bag-card p-3 bag-container me-5-card shadow-lg h-100"
+            >
+              <img
+                src="./images/bag-photos/travel2.png"
+                class="card-img-top casual-bag"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title bag-font fw-bold">
+                  Jack Wolfskin West Highland
+                </h5>
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex align-items-center">
+                  <h2 style="font-weight: 800" class="tomato-highlight">
+                    $320
+                  </h2>
+                  <a style="margin-left: 80px" href="#" class="btn btn-primary">
+                    <i class="fas fa-shopping-cart"></i> BUY NOW</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card bag-card p-3 bag-container me-5-card shadow-lg h-100"
+            >
+              <img
+                src="./images/bag-photos/travel3.png"
+                class="card-img-top casual-bag"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title bag-font fw-bold">
+                  Hiking Trekking Bag Camping
+                </h5>
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="d-flex align-items-center">
+                  <h2 style="font-weight: 800" class="tomato-highlight">
+                    $350
+                  </h2>
+                  <a style="margin-left: 80px" href="#" class="btn btn-primary">
+                    <i class="fas fa-shopping-cart"></i> BUY NOW</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>

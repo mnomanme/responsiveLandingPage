@@ -1,11 +1,7 @@
-body {
-  background-color: lightgray;
-  font-family: "Bebas Neue", cursive;
-}
-
 h1 {
-  font-family: Bebas Neue;
-  font-size: 80px;
+  font-size: 70px;
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
 }
 h5 {
   color: #363958;
@@ -13,26 +9,17 @@ h5 {
   font-size: 24px;
 }
 p {
-  font-family: cursive;
-  font-size: 16px;
-  text-transform: lowercase;
+  font-family: "Roboto", sans-serif;
   color: grey;
 }
 
-button {
-  font-size: 60px;
-  width: 170px;
-  height: 60px;
-}
-
-.btn-text {
-  padding: 5px;
-  font-size: 20px;
+.bag-font {
+  font-family: "Roboto", sans-serif;
 }
 /* nav */
-.top-section {
-  border: 2px solid firebrick;
-  background-color: gainsboro;
+.top-section,
+.middle-section {
+  background-color: #ffe194;
 }
 
 .item-nav > ul > li {
@@ -40,34 +27,35 @@ button {
   padding: 15px;
 }
 
-/* middle  */
-.middle-section {
-  border: 2px solid fuchsia;
-}
-
-.middle-section img {
-  width: 434px;
-  height: 434px;
-}
-
 /* cart */
-.icon-cart {
-  border: 2px solid green;
+.shopping-cart {
+  background-color: thistle;
+  /* border: 2px solid green; */
 }
 
 .item-cart {
-  border: 2px solid rebeccapurple;
-  margin: auto;
+  background-color: white;
+  border-radius: 15px;
 }
 .item-cart img {
-  height: 80px;
   width: 120px;
+  height: 120px;
+  padding-right: 10px;
 }
 
-.cart-item img {
+.cart-item {
   width: 100%;
 }
 
-.cart-section {
-  border: 2px solid darkblue;
+.bag-container {
+  border-radius: 20px;
+}
+
+.bag-card {
+  border: 0;
+}
+.casual-bag {
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  height: 300px;
 }
