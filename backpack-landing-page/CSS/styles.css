@@ -17,8 +17,7 @@ p {
   font-family: "Roboto", sans-serif;
 }
 /* nav */
-.top-section,
-.middle-section {
+.top-section {
   background-color: #ffe194;
 }
 
@@ -28,10 +27,6 @@ p {
 }
 
 /* cart */
-.shopping-cart {
-  background-color: thistle;
-  /* border: 2px solid green; */
-}
 
 .item-cart {
   background-color: white;
