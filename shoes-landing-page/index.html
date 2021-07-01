@@ -17,7 +17,6 @@
   <!-- CSS Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
   <!-- CSS styles -->
   <link rel="stylesheet" href="./CSS/styles.css">
   <!-- Title -->
@@ -25,40 +24,39 @@
 </head>
 
 <body>
-
-  <header class="pb-5 top-banner">
-    <!-- navbar -->
-    <section class="container">
-      <nav class=" navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#home"><img src="./images/logo/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#product">Product</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#about">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#contact">Contact us</a>
-              </li>
-            </ul>
+  <header class="top-banner">
+    <section class="container top-section pb-5">
+      <!-- navbar -->
+      <section>
+        <nav class=" navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#home"><img src="./images/logo/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#product">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#about">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#contact">Contact us</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    </section>
+        </nav>
+      </section>
 
-    <!-- banner shoes -->
-    <section>
-      <div class="container">
+      <!-- banner shoes -->
+      <section>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -78,30 +76,57 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </section>
   </header>
 
   <main>
     <!-- casual shoes -->
-    <section id="casuali-bag" class="container mt-5">
-      <h1>Casual Shoes</h1>
+    <section id="middle-section" class="container mt-5">
+      <h1 class="casual-text">Casual Shoes</h1>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div class="card bag-card p-3 shoe-container me-5-card shadow-lg h-100">
-            <img src="./images/photos/cates-1.png" class="card-img-top casual-shoe" alt="..." />
+          <div class="card shoe-card p-3 shoe-container me-5-card shadow-lg h-100">
+            <img src="./images/photos/cates-1.png" class="card-img-top all-shoes" alt="..." />
             <div class="card-body">
-              <h5 class="card-title bag-font fw-bold">
+              <h5 class="card-title shoe-font">
                 Nike Shoe
               </h5>
               <p class="card-text">
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               </p>
               <div class="d-flex justify-content-between">
-                <h2 style="font-size: 50pxa;">
-                  $120
-                </h2>
+                <h2>$120</h2>
+                <button class="button"><i class="fas fa-shopping-cart me-2"></i> BUY NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shoe-card p-3 shoe-container me-5-card shadow-lg h-100">
+            <img src="./images/photos/cates-2.png" class="card-img-top all-shoes" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title shoe-font">Sneakers Skate Shoe</h5>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </p>
+              <div class="d-flex justify-content-between">
+                <h2>$120</h2>
+                <button class="button"><i class="fas fa-shopping-cart me-2"></i> BUY NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shoe-card p-3 shoe-container me-5-card shadow-lg h-100">
+            <img src="./images/photos/cates-3.png" class="card-img-top all-shoes" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title shoe-font"> Sneakers Basketball Shoe</h5>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </p>
+              <div class="d-flex justify-content-between">
+                <h2>$120</h2>
                 <button class="button"><i class="fas fa-shopping-cart me-2"></i> BUY NOW</button>
               </div>
             </div>
@@ -110,17 +135,206 @@
       </div>
     </section>
 
+    <!-- formal shoes -->
+    <section id="middle-section" class="container mt-5">
+      <h1 class="casual-text">Formal Shoes</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card shoe-card p-3 shoe-container me-5-card shadow-lg h-100">
+            <img src="./images/photos/shoe-1.png" class="card-img-top all-shoes" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title shoe-font">Prestige High-Cut Leather</h5>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </p>
+              <div class="d-flex justify-content-between">
+                <h2>$120</h2>
+                <button class="button"><i class="fas fa-shopping-cart me-2"></i> BUY NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shoe-card p-3 shoe-container me-5-card shadow-lg h-100">
+            <img src="./images/photos/shoe-2.png" class="card-img-top all-shoes" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title shoe-font"> Slip-On Formal Shoe</h5>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </p>
+              <div class="d-flex justify-content-between">
+                <h2>$120</h2>
+                <button class="button"><i class="fas fa-shopping-cart me-2"></i> BUY NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shoe-card p-3 shoe-container me-5-card shadow-lg h-100">
+            <img src="./images/photos/shoe-3..png" class="card-img-top all-shoes" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title shoe-font"> Slip-On Formal Shoe</h5>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </p>
+              <div class="d-flex justify-content-between">
+                <h2>$120</h2>
+                <button class="button"><i class="fas fa-shopping-cart me-2"></i> BUY NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cart section -->
+    <section id="middle-section" class="container mt-5">
+      <section id="about-us" class=" d-flex justify-content-center align-items-center">
+        <div class="row row-cols-1 row-cols-md-2 g-4 cart-section">
+          <div class="col cart-details pt-3">
+            <div class="card mb-3 shadow" style="max-width: 520px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <img src="./images/logo/image 12.png" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Find the Perfect Fit</h5>
+                    <p class="card-text">Everybody is different, which is why we
+                      offer styles for everybody.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 shadow" style="max-width: 520px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <img src="./images/logo/image 13.png" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Free Exchanges</h5>
+                    <p class="card-text">One of the many reasons you can shop
+                      with peace of mind.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 shadow" style="max-width: 520px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <img src="./images/logo/image 14.png" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Contact Our Seller</h5>
+                    <p class="card-text">They are here to help you. That's quite
+                      literally what we pay them for.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center feature-image">
+            <img class="img-fluid w-100" src="./images/logo/cart.png" alt="">
+          </div>
+        </div>
+      </section>
+    </section>
   </main>
 
-  <footer>
-
+  <footer class="page-footer font-small blue pt-4">
+    <!-- Footer Links -->
+    <div class="container-fluid text-start text-md-left">
+      <!-- Grid row -->
+      <div class="row ">
+        <!-- Grid column -->
+        <div class="col-md-3 mt-md-0 mt-3">
+          <!-- Content -->
+          <h5 class="text-uppercase"></h5>
+          <p class="text-p">Here you can use rows and columns to organize your footer content.</p>
+        </div>
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+          <!-- Links -->
+          <h5 class="text-upper-lowercase ">Course</h5>
+          <ul class="list-unstyled ">
+            <li>
+              <a href="#!">Graphic Design</a>
+            </li>
+            <li>
+              <a href="#!">Web Design</a>
+            </li>
+            <li>
+              <a href="#!">Business</a>
+            </li>
+            <li>
+              <a href="#!">Marketing</a>
+            </li>
+            <li>
+              <a href="#!">Engineering</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+          <!-- Links -->
+          <h5 class="text-upper-lowercase">Terms</h5>
+          <ul class="list-unstyled ">
+            <li>
+              <a href="#!">Graphic Design</a>
+            </li>
+            <li>
+              <a href="#!">Web Design</a>
+            </li>
+            <li>
+              <a href="#!">Business</a>
+            </li>
+            <li>
+              <a href="#!">Marketing</a>
+            </li>
+            <li>
+              <a href="#!">Engineering</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+          <!-- Links -->
+          <h5 class="text-upper-lowercase">Useful Link</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Graphic Design</a>
+            </li>
+            <li>
+              <a href="#!">Web Design</a>
+            </li>
+            <li>
+              <a href="#!">Business</a>
+            </li>
+            <li>
+              <a href="#!">Marketing</a>
+            </li>
+            <li>
+              <a href="#!">Engineering</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3"> <small>© 2021 Copyright: <a
+            href="https://github.com/nomanme">Mohammad Noman</a></small>
+      </div>
+      <!-- Copyright -->
   </footer>
 
   <!-- JS Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-
 </body>
 
 </html>
