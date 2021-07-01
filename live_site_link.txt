@@ -1,3 +1,7 @@
+https://backpack-e-commerce.netlify.app/
+
+https://shoes-e-commerce.netlify.app/
+
 https://e-school-commerce.netlify.app/
 
 https://hot-commerce.netlify.app/
