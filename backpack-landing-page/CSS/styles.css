@@ -1,56 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #3e3e3e;
+}
+
 h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
   font-size: 70px;
-  font-family: "Bebas Neue", cursive;
   color: #363958;
 }
+
+.casual-text {
+  font-size: 50px;
+}
+
+h2 {
+  color: lightgreen;
+  font-weight: bold;
+  font-size: 40px;
+}
+
 h5 {
   color: #363958;
-  font-weight: bold;
-  font-size: 24px;
+  font-weight: bolder;
+  font-size: 20px;
 }
+
 p {
   font-family: "Roboto", sans-serif;
   color: grey;
+  font-size: 15px;
 }
 
-.bag-font {
-  font-family: "Roboto", sans-serif;
-}
-/* nav */
-.top-section {
-  background-color: #ffe194;
+/* header section */
+.top-banner {
+  background-color: #fff9f4;
 }
 
-.item-nav > ul > li {
-  font-size: large;
-  padding: 15px;
+.navbar img {
+  width: 280px;
+  height: 45px;
+}
+.nav-link {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px;
 }
 
-/* cart */
-
-.item-cart {
-  background-color: white;
-  border-radius: 15px;
+.banner-text1 {
+  color: #fa804c;
 }
-.item-cart img {
-  width: 120px;
-  height: 120px;
-  padding-right: 10px;
+.banner-text2 {
+  color: #363958;
+}
+.button {
+  height: 3em;
+  width: 8em;
+  border: none;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
 }
 
-.cart-item {
-  width: 100%;
-}
-
-.bag-container {
+.shoe-container {
   border-radius: 20px;
 }
 
-.bag-card {
-  border: 0;
-}
-.casual-bag {
+.all-shoes {
   background-color: #f1f1f1;
   border-radius: 20px;
   height: 300px;
+}
+#middle-section {
+  padding: 30px 20px;
+}
+/* cart section */
+
+.cart-details img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 10px;
+  padding: 15px;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+/* footer */
+footer {
+  padding-left: 20px;
+  background-color: #383e56;
+  color: white;
+}
+
+footer,
+a {
+  text-decoration: none;
+  color: #e0dede;
+}
+
+.list-unstyled a {
+  color: #e0dede;
+  text-decoration: none;
+}
+
+.text-uppercase,
+.text-upper-lowercase,
+.text-p {
+  color: #e0dede;
+}
+
+/* responsive */
+@media (max-width: 576px) {
+  .cart-section {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
 }
