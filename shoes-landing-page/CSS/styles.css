@@ -8,7 +8,7 @@ body {
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
-  font-size: 60px;
+  font-size: 70px;
 }
 .top-banner {
   background-color: #fff9f4;
@@ -19,28 +19,36 @@ h1 {
   height: 40px;
 }
 .nav-link {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   margin: 10px;
 }
 
-#banner {
-  padding-bottom: 50px;
-}
-#banner img {
-  height: 400px;
-  width: 600x;
-}
-.banner-text {
+.banner-text1 {
   color: #fa804c;
 }
-.banner-span-text {
+.banner-text2 {
   color: #363958;
 }
 .button {
-  text-decoration: none;
+  /* text-decoration: none;
   color: white;
   background-color: coral;
-  padding: 15px 40px;
+  padding: 15px 25px;
+  border-radius: 10px; */
+  height: 3em;
+  width: 8em;
+  background-color: #3d4ff3;
+  color: white;
+  border: none;
   border-radius: 10px;
+}
+
+.shoe-container {
+  border-radius: 20px;
+}
+.casual-shoe {
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  height: 300px;
 }
