@@ -1,125 +1,125 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-  font-family: "Roboto Condensed", sans-serif;
-  color: #3e3e3e;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #3e3e3e;
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: bolder;
-  font-size: 70px;
-  color: #363958;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	font-size: 70px;
+	color: #363958;
 }
 
 .casual-text {
-  font-size: 50px;
+	font-size: 50px;
 }
 
 h2 {
-  color: coral;
-  font-weight: bold;
-  font-size: 40px;
+	color: coral;
+	font-weight: bold;
+	font-size: 40px;
 }
 
 h5 {
-  color: #363958;
-  font-weight: bolder;
-  font-size: 25px;
+	color: #363958;
+	font-weight: bolder;
+	font-size: 25px;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
-  color: grey;
-  font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	color: grey;
+	font-size: 15px;
 }
 
 /* header section */
 .top-banner {
-  background-color: #fff9f4;
+	background-color: #fff9f4;
 }
 
 .navbar img {
-  width: 280px;
-  height: 45px;
+	width: 280px;
+	height: 45px;
 }
 .nav-link {
-  font-size: 15px;
-  font-weight: bold;
-  margin: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 10px;
 }
 
 .banner-text1 {
-  color: #fa804c;
+	color: #fa804c;
 }
 .banner-text2 {
-  color: #363958;
+	color: #363958;
 }
 .button {
-  height: 3em;
-  width: 8em;
-  border: none;
-  border-radius: 10px;
-  background-color: #3d4ff3;
-  color: white;
+	height: 3em;
+	width: 8em;
+	border: none;
+	border-radius: 10px;
+	background-color: #3d4ff3;
+	color: white;
 }
 
 .shoe-container {
-  border-radius: 20px;
+	border-radius: 20px;
 }
 
 .all-shoes {
-  background-color: #f1f1f1;
-  border-radius: 20px;
-  height: 300px;
+	background-color: #f1f1f1;
+	border-radius: 20px;
+	height: 300px;
 }
 #middle-section {
-  padding: 30px 20px;
+	padding: 30px 20px;
 }
 /* cart section */
 
 .cart-details img {
-  max-width: 100px;
-  max-height: 100px;
-  margin-top: 10px;
-  padding: 15px;
-  justify-content: center;
+	max-width: 100px;
+	max-height: 100px;
+	margin-top: 10px;
+	padding: 15px;
+	justify-content: center;
 }
 
 .card {
-  border-radius: 10px;
+	border-radius: 10px;
 }
 
 /* footer */
 footer {
-  padding-left: 20px;
-  background-color: #383e56;
-  color: white;
+	padding-left: 20px;
+	background-color: #383e56;
+	color: white;
 }
 
 footer,
 a {
-  text-decoration: none;
-  color: #e0dede;
+	text-decoration: none;
+	color: #e0dede;
 }
 
 .list-unstyled a {
-  color: #e0dede;
-  text-decoration: none;
+	color: #e0dede;
+	text-decoration: none;
 }
 
 .text-uppercase,
 .text-upper-lowercase,
 .text-p {
-  color: #e0dede;
+	color: #e0dede;
 }
 
 /* responsive */
 @media (max-width: 576px) {
-  .cart-section {
-    display: flex;
-    flex-direction: column-reverse;
-    text-align: center;
-  }
+	.cart-section {
+		display: flex;
+		flex-direction: column-reverse;
+		text-align: center;
+	}
 }

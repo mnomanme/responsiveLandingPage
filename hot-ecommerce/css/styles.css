@@ -1,139 +1,139 @@
 body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #ffc7c7;
-  color: white;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ffc7c7;
+	color: white;
 }
 
 .container {
-  margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 hr {
-  margin-top: 0;
-  border-top: 0;
-  width: 80px;
-  border: 5px solid #fb9925;
-  border-radius: 5px;
+	margin-top: 0;
+	border-top: 0;
+	width: 80px;
+	border: 5px solid #fb9925;
+	border-radius: 5px;
 }
 
 p,
 h5 {
-  color: black;
+	color: black;
 }
 
 h1,
 h3,
 h5 {
-  font-family: "Merriweather", serif;
-  color: #383e56;
+	font-family: 'Merriweather', serif;
+	color: #383e56;
 }
 
 p {
-  font-family: "Merriweather Sans", sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
 }
 
 .carousel-item {
-  padding: 20px 100px;
+	padding: 20px 100px;
 }
 
 .electric {
-  padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .smartphone a,
 .laptop a {
-  color: #fb9925;
-  font-weight: 600;
+	color: #fb9925;
+	font-weight: 600;
 }
 
 .electric {
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .card {
-  text-align: center;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px lightgrey;
+	text-align: center;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px lightgrey;
 }
 
 .card img {
-  width: 60%;
-  padding: 50px 0;
+	width: 60%;
+	padding: 50px 0;
 }
 
 .card-footer {
-  background-color: white;
-  border-top: none;
-  text-align: center;
+	background-color: white;
+	border-top: none;
+	text-align: center;
 }
 
 .buy-my-button {
-  background-image: linear-gradient(to bottom, #ff589b 0%, crimson 100%);
-  border: gold;
-  border-radius: 5px;
-  padding: 5px 15px;
-  cursor: pointer;
+	background-image: linear-gradient(to bottom, #ff589b 0%, crimson 100%);
+	border: gold;
+	border-radius: 5px;
+	padding: 5px 15px;
+	cursor: pointer;
 }
 
 .things1 {
-  background-color: white;
-  text-align: center;
-  margin-top: 180px;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px lightseagreen;
+	background-color: white;
+	text-align: center;
+	margin-top: 180px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px lightseagreen;
 }
 
 .things2,
 .things3 {
-  padding: 10px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px lightseagreen;
-  background-color: white;
-  text-align: center;
+	padding: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px lightseagreen;
+	background-color: white;
+	text-align: center;
 }
 
 .things4 img {
-  border-radius: 10px;
-  background-color: white;
-  max-width: 100%;
-  margin-top: 50px;
-  border: none;
+	border-radius: 10px;
+	background-color: white;
+	max-width: 100%;
+	margin-top: 50px;
+	border: none;
 }
 
 .see {
-  font-size: 30px;
-  font-weight: 50px;
-  color: white;
+	font-size: 30px;
+	font-weight: 50px;
+	color: white;
 }
 
 .carousel-indicators li {
-  border: none;
-  width: 25px;
-  border-radius: 15px;
-  height: 10px;
-  background-image: linear-gradient(to right, #ffa132 0%, #ffd019 100%);
+	border: none;
+	width: 25px;
+	border-radius: 15px;
+	height: 10px;
+	background-image: linear-gradient(to right, #ffa132 0%, #ffd019 100%);
 }
 
 h1 {
-  line-height: 2;
+	line-height: 2;
 }
 
 a {
-  line-height: 2;
+	line-height: 2;
 }
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-  width: 0;
+	width: 0;
 }
 
 footer {
-  color: #383e56;
-  background-color: #f69e7b;
-  text-align: center;
-  padding: 10px;
+	color: #383e56;
+	background-color: #f69e7b;
+	text-align: center;
+	padding: 10px;
 }
