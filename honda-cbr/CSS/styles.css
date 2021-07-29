@@ -7,5 +7,25 @@ body {
 	background-color: #fcecdd;
 	/* background-color: #e7e6e1;
 	background-color: #e6e6e6;
-    background-color: #334257; */
+     */
 }
+/* header start */
+header {
+	background-color: #334257;
+}
+/* navbar */
+.navbar-brand {
+	color: white;
+}
+.nav-link {
+	color: white;
+}
+/* header end */
+
+/* main start */
+
+/* main end */
+
+/* footer start */
+
+/* footer end */
