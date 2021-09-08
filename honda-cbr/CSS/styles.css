@@ -1,25 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html,
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Merriweather', serif;
+	font-family: 'Roboto', sans-serif;
 	background-color: #fcecdd;
 	/* background-color: #e7e6e1;
 	background-color: #e6e6e6;
      */
 }
+h1 {
+	font-size: 48px;
+	/* line-height: 72px; */
+}
+
+p {
+	text-align: justify;
+	font-size: 16px;
+}
 /* header start */
 header {
+	color: white;
 	background-color: #334257;
+	padding-bottom: 50px;
 }
-/* navbar */
-.navbar-brand {
+.honda-cbr {
+	border: 5px solid yellow;
+}
+.navbar a {
 	color: white;
 }
-.nav-link {
+.navbar-nav > li > .nav-link {
 	color: white;
 }
+/* navbar start */
+
+/* navbar end */
+
 /* header end */
 
 /* main start */
